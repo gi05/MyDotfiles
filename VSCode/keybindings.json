@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+`",
+        "command": "workbench.action.terminal.newWithCwd",
+        "args": {
+          "cwd": "${fileDirname}"
+        }
+    },
+    {
+      "key": "alt+cmd+e",
+      "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+      "key": "ctrl+shift+t",
+      "command": "workbench.action.terminal.sendSequence",
+      "args": { "text": "'${file}'" }
+    }
+]

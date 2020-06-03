@@ -1,0 +1,39 @@
+{
+    "telemetry.enableTelemetry": false,
+
+    "git.confirmSync": false,
+
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false,
+    "explorer.decorations.colors": false,
+
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "material-icon-theme",
+
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+
+    "python.jediEnabled": false,
+    "python.pythonPath": "/usr/local/bin/python3",
+
+    "github.customPullRequestTitle": true,
+
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.hover.delay": 100,
+
+    "console": "integratedTerminal",
+    // "externalConsole": true
+
+    // removed a hyphen "-"
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "terminal.integrated.scrollback": 1000000,
+    "window.zoomLevel": -1
+}
